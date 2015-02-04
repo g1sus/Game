@@ -12,14 +12,15 @@
 
 //Labels
 @property (strong, nonatomic) IBOutlet UILabel *lblScore;
+@property (strong, nonatomic) IBOutlet UILabel *lblTimer;
 
 //Actions
 - (IBAction)btnPushSender:(id)sender;
 
 
 //Buttons
-
-
-
+- (IBAction)btnStart:(id)sender;
+- (IBAction)btnStop:(id)sender;
+- (IBAction)btnRestart:(id)sender;
 @end
 
